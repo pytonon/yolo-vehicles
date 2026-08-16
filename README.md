@@ -77,7 +77,7 @@ Running the notebook produces, in `data_out/`:
 |---|---|
 | `vehicle_count.avi` | sample video with per-frame count + intensity overlay |
 | `sequence_test.mp4` / `sequence_count.avi` / `sequence_test_results.mp4` | VisDrone sequence assembled + annotated |
-| accuracy plot | per-frame count accuracy vs ground truth (printed + plotted) |
+| accuracy plot | per-frame count accuracy vs ground truth (printed + plotted) of VisDrone sequence |
 
 ## Notes
 
