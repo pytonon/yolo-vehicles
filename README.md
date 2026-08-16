@@ -125,18 +125,14 @@ modifications made in this repository:
    `vd_lib26.py` (model loading, image/video inference, counting, evaluation
    helpers); notebook cells now call library functions instead of holding
    inline code.
-3. **Simplified the counting pipeline** — removed the BoT-SORT tracking
-   pipeline (per-vehicle lifespan/CSV export, outlier analysis, tracking
-   videos) and the lane-splitting + shadow-filter heuristics; the pipeline now
-   does per-frame vehicle counting with a traffic-intensity overlay.
-4. **Added ground-truth evaluation** — new `load_mot_counts`,
+3. **Added ground-truth evaluation** — new `load_mot_counts`,
    `evaluate_sequence` and `plot_count_accuracy` compare predictions against
    MOT-style annotations (VisDrone test clip) and plot per-frame count
    accuracy (metric defined above).
-5. **Robustness fixes** — video inference consumes the results stream
+4. **Robustness fixes** — video inference consumes the results stream
    (memory fix), and frame folders are assembled with an ffmpeg even-dimension
    scale filter (odd frame heights previously failed to encode).
-6. **Portability** — all absolute paths removed; the repo root is
+5. **Portability** — all absolute paths removed; the repo root is
    auto-detected; dead dependencies (pandas, scipy, seaborn) dropped.
 
 ## License
