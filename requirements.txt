@@ -1,0 +1,10 @@
+# Core inference/training (includes torch + numpy + opencv)
+ultralytics>=8.4.0
+
+# Dataset auto-download (notebook section 2)
+kagglehub
+
+# Plotting / inspection cells
+matplotlib
+pyyaml
+pillow
