@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Generated outputs (regenerable from the notebook)
+data_out/
+train_out26/
+runs/
+
+# Downloaded data — large; obtain from VisDrone (see README)
+data_input/test_video_visdrone/
+data_input/test_video_visdrone_night/
+data_input/visdrone_heavy_traffic/
+data_input/*.zip
+datasets/
+
+# Media outputs
+*.avi
+
+# macOS
+.DS_Store
